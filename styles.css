@@ -1,0 +1,49 @@
+/* This is a single-line comment */
+
+/* This is
+a multi-line
+comment */
+
+body {
+	background-color: black;
+}
+
+.item-container {
+	display: flex;
+	background-color: black;
+	margin: 20px;
+	justify-content: center;
+	border: 1px solid white;
+}
+
+.item {
+	display: flex;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid white;
+	margin: 3px;
+	justify-content: center;
+}
+
+.svg-container {
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden; 
+}
+
+.item:hover {
+	background-color: white;
+}
+
+.icons {
+	fill: white;
+}
+
+.icons:hover {
+	fill: black;
+}
+
